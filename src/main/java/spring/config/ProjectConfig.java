@@ -15,7 +15,7 @@ public class ProjectConfig {
         dataSourceBuilder.driverClassName("com.mysql.cj.jdbc.Driver");
         dataSourceBuilder.url("jdbc:mysql://localhost:3306/spring_security?serverTimezone=UTC");
         dataSourceBuilder.username("root");
-        dataSourceBuilder.password("$Ridder0169$");
+        dataSourceBuilder.password("**********");
         return dataSourceBuilder.build();
     }
 }
